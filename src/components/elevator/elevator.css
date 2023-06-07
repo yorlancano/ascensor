@@ -1,0 +1,36 @@
+.elevator-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.elevator-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #333;
+    border-radius: 5px;
+    background-color: #f7f7f7;
+}
+.button-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    margin-bottom: 10px;
+}
+.arrival-message {
+    font-size: 20px;
+    margin-top: 20px;
+    color: rgb(163, 16, 16);
+}
+
+.current-floor-button {
+    background-color: rgb(190, 41, 15);
+    color: white;
+}
